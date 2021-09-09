@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  course:
+    build: .
+    volumes:
+      - ".:/home/notebooks"  # This is different from usual
+    ports: 
+      - 8888:8888
