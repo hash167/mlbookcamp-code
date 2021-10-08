@@ -1,0 +1,3 @@
+FROM agrigorev/zoomcamp-model:3.8.12-slim
+
+# I have created my own Dockerfile
